@@ -12,6 +12,8 @@ spec:
     path: helm-guestbook
     repoURL: "https://github.com/mehoussou/argocd-example-apps.git"
     targetRevision: argo-test-branch
+    helm:
+      releaseName: my-release
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
