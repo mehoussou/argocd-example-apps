@@ -11,7 +11,7 @@ spec:
   source:
     path: guestbook
     repoURL: "https://github.com/mehoussou/argocd-example-apps.git"
-    targetRevision: master
+    targetRevision: argo-test-branch
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
